@@ -16,11 +16,10 @@ username: <%= ENV.fetch("MYSQL_USERNAME", "root") %>
 password: <%= ENV.fetch("MYSQL_PASSWORD", "root") %>
 host: <%= ENV.fetch("MYSQL_HOST", "database") %>
 ```
-host: localhost
-username: root
-password: root
-
-
+> host: localhost  
+username: root  
+password: root  
+port: 4306
 ## docker command
 - build: `$ docker-compose build`
 - start app: `$ docker-compose up`
