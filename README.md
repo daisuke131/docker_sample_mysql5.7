@@ -23,4 +23,11 @@ port: 4306
 ## docker command
 - build: `$ docker-compose build`
 - start app: `$ docker-compose up`
-- bundle install: `docker-compose run --rm app bundle install`
+- bundle install: `$ docker-compose run --rm app bundle install`
+- confirm container: `$ docker ps -a`
+- delete container: `$ docker rm [container code]`
+- confirm image: `$ docker images`
+- delete image: `$ docker rmi [image code]`<br>
+
+if error of multiple repositories...<br>
+- Forced deletion image: `$ docker rmi [image code] -f`
