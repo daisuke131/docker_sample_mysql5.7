@@ -25,4 +25,3 @@ password: root
 - build: `$ docker-compose build`
 - start app: `$ docker-compose up`
 - bundle install: `docker-compose run --rm app bundle install`
-- run seed: `$ docker-compose run --rm app bundle exec rake db:seed`
